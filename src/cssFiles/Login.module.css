@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Work+Sans:wght@500&display=swap");
+
+.body {
+  width: 725px;
+  height: 505px;
+  left: 346px;
+  top: 55px;
+  background-color: white;
+}
+
+.big {
+  width: 800px;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 7.5%;
+  border: 2px solid #666666; /* Add a 2px solid black border */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  /* Optional: Add some padding inside the border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  position: relative;
+ 
+  width: 400px;
+  height: 505px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title {
+  position: relative;
+  left: 23px;
+ margin-top: 10px;
+  width: 127px;
+}
+
+.title p {
+  color: #2e4049;
+  font-family: Shippori Mincho;
+  font-size: 30px;
+}
+
+.registerBox {
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.registerBoxx {
+  position: absolute;
+  left: 33px;
+  top: 64px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.registerBox h4 {
+  /* font-size: large; */
+  font-family: serif;
+}
+
+.registerBoxx h4 {
+  /* font-size: large; */
+  font-family: Work Sans;
+  margin-bottom: -3px;
+  margin-top: -1px;
+}
+
+.registerBox p {
+  /* margin-right: 80px; */
+  color: #8a8a8a;
+}
+
+.all {
+  margin-left: -90px;
+  margin-bottom: 20px;
+  color: #8a8a8a;
+}
+
+.all a {
+  font-family: Work Sans;
+  color: rgb(84, 96, 204);
+}
+
+.textBox {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 20px;
+  display: flex;
+  width: 326px;
+  height: 30px;
+  align-items: center;
+  background-color: var(--gray-50);
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #d7cdcd;
+}
+
+.gender {
+  display: flex;
+  margin-right: 80px;
+  margin-top: -10px;
+}
+
+.radioButton {
+  margin-top: 15px;
+}
+
+.Create {
+  padding: 12px 28px;
+  background-color: rgba(255, 109, 109, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 14.32px;
+  color: aliceblue;
+  margin-top: -4px;
+  margin-bottom: -10px;
+}
+
+.login {
+  padding: 15px 35px;
+  background-color: #2e4049;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 14.32px;
+  color: aliceblue;
+  margin-right: 220px;
+  margin-top: 11px;
+}
+
+button:hover {
+  background-color: rgb(42, 132, 154);
+}
+
+.CopyRights {
+  position: absolute;
+  left: 23px;
+  top: 460px;
+}
+
+.CopyRights p {
+  color: #8a8a8a;
+  font-family: "Lato-Regular";
+  font-size: 11px;
+}
+
+.right {
+  position: relative;
+
+  width: 400px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #77d7d3;
+  background-image: url(/src/img/login/mask.png);
+}
+
+.inner {
+  position: absolute;
+  left: 49px;
+  top: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner p {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Lato";
+  font-size: 30px;
+}

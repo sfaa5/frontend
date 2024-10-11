@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Work+Sans:wght@500&display=swap");
+@media (min-width: 768px) {
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.topNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #77d7d3;
+  height: 57px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35.98px;
+}
+
+.left .call {
+  margin-left: 287px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20.5px 28.5px;
+  background-color: #4bc9c4;
+  gap: 12.75px;
+  margin-right: 287px;
+  height: 57px;
+}
+
+.bottomNav {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomNav h1 {
+  position: absolute;
+  cursor: pointer;
+  left: 15.26%;
+}
+
+.navLinks {
+  list-style: none;
+  position: absolute;
+  left: 36.61%;
+}
+
+.navLinks ul {
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+  color: aqua;
+}
+
+.Dropdown {
+  position: relative;
+}
+
+.drobdowncont {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 5;
+}
+
+.drobdowncont a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  text-align: center;
+}
+
+.drobdowncont a:hover {
+  background-color: #f1f1f1;
+}
+
+.Dropdown:hover .drobdowncont {
+  display: block;
+}
+
+.button1 {
+  padding: 17.5px 28.6px;
+  background-color: rgba(255, 109, 109, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 14.32px;
+}
+
+.cta {
+  position: absolute;
+  right: 19.55%;
+}
+
+button:hover {
+  background-color: rgb(42, 132, 154);
+}
+
+.ls {
+  right: 5.73%;
+  gap: 34.25px;
+  position: absolute;
+}
+
+.ls a {
+  padding-right: 15px;
+  font-size: 14.32;
+
+  text-transform: uppercase;
+
+  justify-content: space-around;
+  transition: all 0.3s ease 0s;
+}
+
+.ls a:hover {
+  color: rgba(255, 109, 109, 1);
+  transition: all 0.3s ease 0s;
+}

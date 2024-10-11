@@ -1,0 +1,253 @@
+.container {
+  min-height: 100vh; /*  full viewport  */
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0px;
+  position: relative;
+  background-color: #2e4049;
+  flex-shrink: 0;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1400px;
+  height: 470px;
+  flex-grow: 1;
+}
+
+.footer .div {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  align-items: center;
+  gap: 70px;
+  position: relative;
+  top: 75px;
+}
+
+.footer .upper {
+  display: flex;
+  width: 960px;
+  align-items: flex-start;
+  gap: 27px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .leftSide {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.footer .leftSideUp {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  align-items: flex-start;
+  gap: 19px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .logo {
+  position: relative;
+  width: 200px;
+  height: 41px;
+}
+
+.footer .logoText {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .logoImg {
+  position: absolute;
+  width: 15px;
+  height: 34px;
+  top: 4px;
+  left: 1px;
+  background-size: 100% 100%;
+}
+
+.footer .logoImg2 {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  top: 2px;
+  left: 3px;
+  background-color: #77d7d3;
+  border-radius: 3.61px;
+}
+
+.footer .para {
+  position: relative;
+  width: 291px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.footer .social {
+  display: flex;
+  width: 228px;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .element {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #384c56;
+  border-radius: 24.06px;
+}
+
+.footer .img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 17px;
+  left: 16px;
+}
+
+.footer .rightSide {
+  display: inline-flex;
+  flex-direction: column;
+  height: 190px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 45px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #384c56;
+}
+
+.footer .rightSideAll {
+  display: inline-flex;
+  height: 197px;
+  align-items: center;
+  gap: 56px;
+  position: relative;
+}
+
+.footer .rightSide1 {
+  display: flex;
+  flex-direction: column;
+  width: 154px;
+  height: 201px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.footer .title1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.8px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .list {
+  position: relative;
+  width: 163px;
+  margin-bottom: -27px;
+  margin-right: -8.8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.footer .span {
+  color: white;
+}
+
+.footer .listRed {
+  color: #ff6d6d;
+}
+
+.footer .rightSide2 {
+  display: flex;
+  flex-direction: column;
+  width: 200.5px;
+  align-items: flex-start;
+  gap: 44.1;
+  position: relative;
+}
+
+.footer .list2 {
+  position: relative;
+  width: 200.5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.footer .lower {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .line {
+  position: relative;
+  width: 1400px;
+  height: 3px;
+  margin-top: -0.8px;
+}
+
+.footer .p {
+  position: relative;
+  width: fit-content;
+  font-family: initial;
+  font-weight: 400;
+  color: white;
+  font-size: 14.5px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
