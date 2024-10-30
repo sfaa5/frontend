@@ -241,6 +241,7 @@ button:hover {
   position: absolute;
   left: 18.75%;
   top: 210.15px;
+
 }
 
 .intro_content h1 {
@@ -273,6 +274,7 @@ a.one {
 .btn-cont {
   display: flex;
   gap: 11.99px;
+  margin-top: 20px;
 }
 
 .bannar-for-intro {
